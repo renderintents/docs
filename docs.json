@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "Packet RBX Documentation",
   "colors": {
-    "primary": "#1545a3",
-    "light": "#869ad7",
-    "dark": "#141880"
+    "primary": "#633fc7",
+    "light": "#a785d6",
+    "dark": "#2a115a"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/favicon.svg",
+    "dark": "/favicon.svg"
+  },
   "navigation": {
     "pages": [
       "home"
@@ -15,7 +18,7 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/images/packet.png"
   },
   "navbar": {
     "links": [],
@@ -45,12 +48,15 @@
   "background": {
     "color": {
       "light": "#ebd3e8",
-      "dark": "#040105"
+      "dark": "#0e0411"
     },
-    "decoration": "gradient"
+    "decoration": "grid"
   },
   "thumbnails": {
     "appearance": "dark",
     "background": "/images/amazing-4k-winter-uthdgamx86mif2r6.jpg"
+  },
+  "appearance": {
+    "default": "dark"
   }
 }
