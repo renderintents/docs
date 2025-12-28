@@ -3,9 +3,9 @@
   "theme": "maple",
   "name": "PacketDocumentation",
   "colors": {
-    "primary": "#c740b6",
+    "primary": "#404dc7",
     "light": "#c685d6",
-    "dark": "#591144"
+    "dark": "#111f59"
   },
   "favicon": {
     "light": "/favicon.svg",
