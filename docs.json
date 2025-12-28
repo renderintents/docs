@@ -17,6 +17,13 @@
       {
         "group": "Commands",
         "pages": [
+          {
+            "group": "List",
+            "pages": [
+              "commands/list/bind",
+              "commands/list/panic"
+            ]
+          },
           "commands/basics"
         ]
       }

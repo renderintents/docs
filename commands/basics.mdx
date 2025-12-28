@@ -1,4 +1,52 @@
 ---
-title: 'Basics'
+title: "Command Basics"
+description: "Learn how to interact with Packet RBX efficiently using prefixes and shorthand."
 ---
 
+## Getting Started
+
+To execute a command in Packet, you must use the designated prefix. This tells the mod to listen to your input rather than standard chat.
+
+<Card title="Default Prefix" icon="terminal">
+  The default prefix for Packet is `.`.
+
+  Example: `.bind`or `.bind ClickGui Insert`
+</Card>
+
+---
+
+## Efficiency Features
+
+Packet is designed to be **streamlined**. You don't need to be a fast typist to be a power user.
+
+### Command Shortening (Auto-Complete)
+
+You do not need to type out the full name of a command. As long as your input is unique to one command, Packet will recognize it. This is often referred to as "shorthand."
+
+<Steps>
+  <Step title="Full Command">
+    Typing `.teleport player67`
+  </Step>
+  <Step title="Shorthand">
+    Typing `.tp player67`
+  </Step>
+  <Step title="Result">
+    Both actions perform the exact same teleportation logic, saving you keystrokes.
+  </Step>
+</Steps>
+
+<Note>
+  If two commands start with the same letters (e.g., `.teleport`and `.gameteleport`), you will need to type enough letters to distinguish between them.
+</Note>
+
+### Argument Handling
+
+Most commands follow a simple structure: `[prefix][command] [...arguments]`
+
+| Component     | Description                    | Example  |
+| :------------ | :----------------------------- | :------- |
+| **Prefix**    | The trigger character          | `.`      |
+| **Command**   | The action name (or shorthand) | `unbind` |
+| **Arguments** | The values or targets          | `Fly`    |
+
+**Final Result:** `.unbind Fly`
