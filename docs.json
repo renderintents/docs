@@ -3,9 +3,9 @@
   "theme": "maple",
   "name": "Packet RBX Documentation",
   "colors": {
-    "primary": "#633fc7",
-    "light": "#a785d6",
-    "dark": "#2a115a"
+    "primary": "#c740b6",
+    "light": "#c685d6",
+    "dark": "#591144"
   },
   "favicon": {
     "light": "/favicon.svg",
@@ -23,7 +23,7 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "/images/packet-light.png",
     "dark": "/images/packet.png"
   },
   "navbar": {
