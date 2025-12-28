@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
-  "name": "Packet RBX Documentation",
+  "name": "PacketDocumentation",
   "colors": {
     "primary": "#c740b6",
     "light": "#c685d6",
@@ -13,7 +13,13 @@
   },
   "navigation": {
     "pages": [
-      "untitled-page"
+      "getting-started",
+      {
+        "group": "Commands",
+        "pages": [
+          "commands/basics"
+        ]
+      }
     ]
   },
   "logo": {
