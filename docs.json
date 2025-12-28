@@ -75,7 +75,7 @@
   },
   "background": {
     "color": {
-      "light": "#d6d5ed",
+      "light": "#ffffff",
       "dark": "#040712"
     },
     "decoration": "grid"
