@@ -4,7 +4,7 @@
   "name": "PacketDocumentation",
   "colors": {
     "primary": "#404dc7",
-    "light": "#c685d6",
+    "light": "#858bd6",
     "dark": "#111f59"
   },
   "favicon": {
@@ -75,7 +75,7 @@
   },
   "background": {
     "color": {
-      "light": "#eed6eb",
+      "light": "#d6d5ed",
       "dark": "#040712"
     },
     "decoration": "grid"
