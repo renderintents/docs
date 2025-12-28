@@ -21,7 +21,13 @@
             "group": "List",
             "pages": [
               "commands/list/bind",
-              "commands/list/panic"
+              "commands/list/panic",
+              "commands/list/untitled-page",
+              "commands/list/place-id",
+              "commands/list/job-id",
+              "commands/list/bottom",
+              "commands/list/game-teleport",
+              "commands/list/goto"
             ]
           },
           "commands/basics"
