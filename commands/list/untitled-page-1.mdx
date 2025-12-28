@@ -1,0 +1,26 @@
+---
+title: "Hide"
+description: "Hides a specified module(s) in the Array List"
+---
+
+<Tip>
+  You could hide EVERYTHING in a window by simply specifying the window name instead of a module name.
+</Tip>
+
+<Tip>
+  No argument(s) are Case Sensitive
+</Tip>
+
+<Tip>
+  Using 'all' as a match would hide EVERYTHING in the Array List
+</Tip>
+
+<Warning>
+  If your match has spaces, you <b>MUST REMOVE THE SPACES</b> (eg: 'Click GUI' -> 'ClickGUI')
+</Warning>
+
+| Component  | Description                      | Example | Type   | Optional
+| :--------- | :------------------------------- | :------ | :----- | :-----
+| **Match** | The module/window                 | `ClickGUI` | string | false
+
+<b> Final Example: </b>`.hide ClickGUI`

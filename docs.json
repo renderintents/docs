@@ -17,20 +17,29 @@
       {
         "group": "Commands",
         "pages": [
+          "commands/basics",
           {
             "group": "List",
             "pages": [
               "commands/list/bind",
+              "commands/list/untitled-page-2",
               "commands/list/panic",
               "commands/list/untitled-page",
               "commands/list/place-id",
               "commands/list/job-id",
               "commands/list/bottom",
               "commands/list/game-teleport",
-              "commands/list/goto"
+              "commands/list/goto",
+              "commands/list/untitled-page-1",
+              "commands/list/show",
+              "commands/list/teleport",
+              "commands/list/subscription",
+              "commands/list/uninject",
+              "commands/list/reinject",
+              "commands/list/untitled-page-3",
+              "commands/list/dev"
             ]
-          },
-          "commands/basics"
+          }
         ]
       }
     ]
