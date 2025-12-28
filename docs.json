@@ -14,6 +14,7 @@
   "navigation": {
     "pages": [
       "getting-started",
+      "untitled-page",
       {
         "group": "Commands",
         "pages": [
